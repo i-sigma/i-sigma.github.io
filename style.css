@@ -1,0 +1,78 @@
+/*ЗАКОММЕНТИРОВАНО:
+
+Задайте стили в файле style.css:
+
+    1. У всех абзацев отступ снизу 12 пикселей.
+    2. Заголовков первых трёх уровней:
+        вес шрифта 400
+        отступ снизу 0
+    3. У заголовка первого уровня  размер шрифта 36 пикселей.
+    4. У заголовка второго уровня:
+        размер шрифта 32 пикселя
+        граница снизу толщиной 1 пиксель серого цвета
+        отступ снизу 8 пикселей
+    5. У заголовка третьего уровня размер шрифта 20 пикселей.
+    6. У #header:
+        отступ снизу 32 пикселя
+        выравнивание текста по центру
+    7. У #footer:
+        отступ сверху 64 пикселя
+        выравнивание текста по центру
+		
+		(Под отступом всегда подразумевается margin).
+	*/
+
+
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 400;
+  border-bottom: 1px solid #878787;  /* граница снизу 1px серый цвет (color-picker) */
+  margin-bottom: 8px;	/* отступ снизу */
+	}
+
+h3 {
+	font-size:20px;
+	font-weight: 400;
+	}
+	
+ #header {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;   /* c center content  */
+  margin-bottom: 32px;	
+}
+
+ #main {
+font-family: Georgia;
+  font-size: 16px;
+  margin: 0 auto;   /* center content */
+  max-width: 800px; /* limit width */
+  line-height: 1.5;  /* line spacing, */
+  padding-top: 32px;
+  padding-bottom: 32px;
+} 
+
+ #footer {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;   /* center content */
+  margin-top: 64px;  
+    }
+
+p {	margin-bottom: 12px; 
+    }
+
+  .periods {
+	font-size: 16px;
+	font-style: italic;	 
+ }
+ 
+ .to {
+  font-weight: bold;	/* насыщенность шрифта font-weight: bold| lighter |normal| 100| .. |900  */
+}
